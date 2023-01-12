@@ -1,4 +1,4 @@
-({ mod1Function1, mod1Function2 } = require('./mod1.js'))
+import { mod1Function1, mod1Function2 } from './mod1.js'
 
 const testFunction = () => {
     console.log('Im the main function')
